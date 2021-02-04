@@ -1,0 +1,87 @@
+*{
+    margin: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    background-color: darkgreen;
+    width: 100%;
+    position: fixed;
+}
+
+header a {
+    margin: 2%;
+}
+
+#pesquisa {
+   margin: 2%;
+}
+
+select, input {
+    border: none;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 70px;
+}
+
+#livro {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    border: green;
+    border-style: solid;
+    border-radius: 2%;
+    margin: 1%;
+    padding: 1%;
+    width: 80%;
+}
+
+.box {
+    display: flex;
+    justify-content: stretch;
+    align-items: center;
+    flex-direction: column;
+    width: 70%;
+}
+
+.box p, a{
+    margin: 1%
+}
+
+#titulo {
+    font-size: x-large;
+    font-weight: bold;
+    font-style: italic;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: darkgreen;
+    padding: 1%;
+    margin-top: 1%;
+}
+
+footer div {
+    width: 100%;
+}
+footer a{
+    color: black;
+    font-style: italic;
+}
+footer p{
+    display: flex;
+    justify-content: flex-end;
+}
